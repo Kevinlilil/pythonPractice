@@ -1,4 +1,8 @@
-name = input()
+def dfs(a):
+    a += 1
+    return a
 
-print(f'hello {name}')
 
+a = 0
+
+print(dfs(a))
